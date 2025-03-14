@@ -1,0 +1,3 @@
+Comparing Correct_cd (proportion) between VR_exp=1 vs. VR_exp=0:
+Mean (VR=1): 0.456, Mean (VR=0): 0.698
+T-statistic: -2.569, p-value: 0.038176

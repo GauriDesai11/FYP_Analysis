@@ -1,0 +1,8 @@
+Plot: %Correct_cd=1 vs. Order (Small vs Large)
+Size=Large
+Coeffs=[-0.00345673  0.10158047  0.02284346]
+Size=Large: stationary point at x=14.693, y=0.769
+
+Size=Small
+Coeffs=[ 4.15337586e-04 -1.25639690e-02  6.32502546e-01]
+Size=Small: stationary point at x=15.125, y=0.537

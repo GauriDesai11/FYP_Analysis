@@ -1,0 +1,1 @@
+Poly coeffs=[ 0.24709991 -0.58824574  0.85546875], Stationary point at x=1.190, y=0.505

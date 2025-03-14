@@ -1,0 +1,4 @@
+Comparing Similar (proportion) between Small and Large:
+Mean (Small): 0.315, Mean (Large): 0.185
+T-statistic: 1.786, p-value: 0.092089
+Interpretation: if p < 0.05, difference is significant.

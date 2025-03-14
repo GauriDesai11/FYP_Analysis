@@ -1,0 +1,3 @@
+Plot: %Similar=1 vs. Ratio (with polynomial fit)
+Coefficients: [-0.15782828  0.38352273  0.07638889]
+Stationary point at x=1.215, y=0.309

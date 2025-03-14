@@ -1,0 +1,4 @@
+Comparing Correct_cd (proportion) between Small and Large:
+Mean (Small): 0.556, Mean (Large): 0.639
+T-statistic: -0.878, p-value: 0.392406
+Interpretation: if p < 0.05, difference is significant.

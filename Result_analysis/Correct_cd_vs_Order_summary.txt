@@ -1,0 +1,4 @@
+Plot: %Correct_cd=1 vs. Order
+Polynomial degree: 2
+Coefficients (highest degree first): [-5.51277641e-06  1.12361409e-02  4.89106754e-01]
+No valid stationary point within data range.
