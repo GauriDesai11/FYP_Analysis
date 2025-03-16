@@ -27,3 +27,16 @@ model = smf.gee(
 )
 result = model.fit()
 print(result.summary())
+
+# Convert 'Order' and 'Size' to categorical if they are not already
+df['Order'] = df['Order'].astype('category')
+df['Size'] = df['Size'].astype('category')
+
+# OLS model to test main effects of Size, Order, and their interaction on Correct_cd
+# WARNING: This treats Correct_cd as continuous, ignoring that it's actually binary data
+#          and also does NOT account for repeated measures.
+model_anova = smf.ols("Correct_cd ~ C(Size)*C(Order)", data=df).fit()
+
+# Perform Type II ANOVA
+anova_table = sm.stats.anova_lm(model_anova, typ=2)
+print(anova_table)
