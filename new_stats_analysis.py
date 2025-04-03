@@ -6,7 +6,7 @@ import pandas as pd
 #   UserID (identifier), Correct_cd (0/1), Size (Small/Large), Ratio (numeric)
 # We'll treat Size as a categorical factor and Ratio as numeric or factor.
 
-df = pd.read_csv("NEW_FYP_User_study.csv")
+df = pd.read_csv("output.csv")
 
 # GEE approach (approx):
 model = smf.gee(

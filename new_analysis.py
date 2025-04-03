@@ -36,7 +36,7 @@ import statsmodels.api as sm
 # 1. Utility functions
 ###############################################################################
 
-def ensure_result_dir_exists(dir_name="Result_analysis"):
+def ensure_result_dir_exists(dir_name="original_ratio_order_analysis"):
     """
     Checks if the results directory exists; creates it if it does not.
     """
