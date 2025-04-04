@@ -79,9 +79,27 @@ def run_one_sample_wilcoxon_tests(csv_file="subjective_FYP_User_study.csv",
 
     return results
 
+def run_overall_wilcoxon_test(csv_file="subjective_FYP_User_study.csv", 
+                               compare_value=0.0):
+    """
+    Combines all scores across all questions and users into a single list,
+    then runs a Wilcoxon signed-rank test against `compare_value`.
+    """
+    df = pd.read_csv(csv_file)
+    scores = df.drop(columns=["Question"]).values.flatten().astype(float)
+
+    stat, p_val = wilcoxon(scores - compare_value, alternative='two-sided')
+    print(f"Overall Wilcoxon test vs {compare_value}: stat={stat:.3f}, p-value={p_val:.4g}")
+
+    return stat, p_val
+
+
 if __name__ == "__main__":
     # 1) Plot the boxplot
     plot_subjective_scores()
 
     # 2) Perform one-sample Wilcoxon vs. 0 (or vs. 4 if you want to see if median>4)
     wilcoxon_results = run_one_sample_wilcoxon_tests(compare_value=0.0)
+    
+    run_overall_wilcoxon_test(compare_value=0.0)
+    
