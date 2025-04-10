@@ -1,6 +1,7 @@
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+import numpy as np
 
 # Statistical libraries
 from scipy.stats import wilcoxon
@@ -69,13 +70,27 @@ def run_one_sample_wilcoxon_tests(csv_file="subjective_FYP_User_study.csv",
         # The rest of columns are user scores
         scores = row.drop(labels='Question').values.astype(float)
         
+        mean = np.mean(scores)
+        std_dev = np.std(scores, ddof=1)
+        
         # Wilcoxon checks median vs. 'compare_value'
         # We do 'scores - compare_value' so that if median of scores is > compare_value,
         # we should get a significant p-value (2-sided).
         stat, p_val = wilcoxon(scores - compare_value, alternative='two-sided')
         
-        results[question_label] = (stat, p_val)
-        print(f"Question {question_label}: Wilcoxon stat={stat:.3f}, p-value={p_val:.4g}")
+        # results[question_label] = (stat, p_val)
+        
+        results[question_label] = {
+            'mean': mean,
+            'std_dev': std_dev,
+            'wilcoxon_stat': stat,
+            'p_value': p_val
+        }
+        
+        # print(f"Question {question_label}: Wilcoxon stat={stat:.3f}, p-value={p_val:.4g}")
+
+        print(f"{question_label}: mean={mean:.2f}, std={std_dev:.2f}, "
+              f"Wilcoxon stat={stat:.3f}, p={p_val:.4g}")
 
     return results
 
