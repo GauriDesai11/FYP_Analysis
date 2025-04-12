@@ -1,6 +1,4 @@
 """
-Data Analysis Script: VR Experiment
-===================================
 Analyzes data from a CSV file with columns:
     UserID, Order, Size, Color, Ratio, Heavier_blue, Heavier_other, Similar, Correct_cd, Odd, VR_exp
 
