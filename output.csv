@@ -1,4 +1,58 @@
 UserID,Order,Size,Color,Ratio,Heavier_blue,Heavier_other,Similar,Correct_cd,Odd,VR_exp
+User1,17,Small,Green,2.0,False,True,0,1,0,1
+User1,13,Small,Red,1.8,False,True,0,1,0,1
+User1,15,Small,Purple ,1.6,False,True,0,1,0,1
+User1,7,Small,Teal,1.4,True,False,0,0,0,1
+User1,4,Small,Yellow,1.2,True,False,0,1,0,1
+User1,1,Small,Pink,0.8,True,False,0,1,0,1
+User1,8,Small,Orange,0.6,True,False,0,1,0,1
+User1,5,Small,DarkBlue,0.4,False,False,1,0,0,1
+User1,14,Small,White,0.2,False,False,1,0,0,1
+User1,12,Large,Green,0.4,True,False,0,1,0,1
+User1,3,Large,Red,0.6,True,False,0,1,0,1
+User1,16,Large,Purple ,0.8,False,False,1,0,0,1
+User1,6,Large,Teal,1.2,False,False,1,0,0,1
+User1,11,Large,Yellow,1.4,False,True,0,1,0,1
+User1,2,Large,Pink,1.6,False,True,0,1,0,1
+User1,18,Large,Orange,1.8,False,True,0,1,0,1
+User1,9,Large,DarkBlue,2.0,False,True,0,1,0,1
+User1,10,Large,White,0.2,True,False,0,1,0,1
+User2,6,Small,Green,2.0,False,False,1,0,1,0
+User2,18,Small,Red,1.8,False,True,0,1,0,0
+User2,17,Small,Purple ,1.6,False,True,0,1,0,0
+User2,5,Small,Teal,1.4,False,True,0,1,0,0
+User2,8,Small,Yellow,1.2,True,False,0,1,0,0
+User2,7,Small,Pink,0.8,False,False,1,0,0,0
+User2,1,Small,Orange,0.6,True,False,0,1,0,0
+User2,11,Small,DarkBlue,0.4,True,False,0,1,0,0
+User2,3,Small,White,0.2,True,False,0,1,0,0
+User2,10,Large,Green,0.4,True,False,0,1,0,0
+User2,9,Large,Red,0.6,True,False,0,1,0,0
+User2,13,Large,Purple ,0.8,True,False,0,1,0,0
+User2,16,Large,Teal,1.2,False,True,0,0,0,0
+User2,14,Large,Yellow,1.4,False,True,0,1,0,0
+User2,4,Large,Pink,1.6,False,False,1,0,0,0
+User2,2,Large,Orange,1.8,True,False,0,0,0,0
+User2,12,Large,DarkBlue,2.0,False,False,1,0,0,0
+User2,15,Large,White,0.2,True,False,0,1,0,0
+User3,1,Small,Green,2.0,False,True,0,1,0,0
+User3,9,Small,Red,1.8,False,False,1,0,0,0
+User3,11,Small,Purple ,1.6,False,False,1,0,0,0
+User3,16,Small,Teal,1.4,False,False,1,0,0,0
+User3,2,Small,Yellow,1.2,False,True,0,0,0,0
+User3,6,Small,Pink,0.8,False,True,0,0,0,0
+User3,5,Small,Orange,0.6,True,False,0,1,0,0
+User3,8,Small,DarkBlue,0.4,False,False,1,0,0,0
+User3,12,Small,White,0.2,False,False,1,0,0,0
+User3,7,Large,Green,0.4,True,False,0,1,0,0
+User3,18,Large,Red,0.6,True,False,0,1,0,0
+User3,10,Large,Purple ,0.8,True,False,0,1,0,0
+User3,3,Large,Teal,1.2,False,False,1,0,0,0
+User3,14,Large,Yellow,1.4,True,False,0,0,0,0
+User3,4,Large,Pink,1.6,True,False,0,0,0,0
+User3,17,Large,Orange,1.8,False,True,0,1,1,0
+User3,13,Large,DarkBlue,2.0,False,True,0,1,0,0
+User3,15,Large,White,0.2,True,False,0,1,0,0
 User4,3,Small,Green,2.0,False,True,0,1,1,0
 User4,13,Small,Red,1.8,False,True,1,1,0,0
 User4,17,Small,Purple ,1.6,False,True,0,1,0,0
@@ -161,57 +215,3 @@ User12,17,Large,Pink,1.6,False,True,0,1,0,1
 User12,8,Large,Orange,1.8,True,False,0,0,0,1
 User12,2,Large,DarkBlue,2.0,True,False,0,0,0,1
 User12,5,Large,White,0.2,True,False,0,1,0,1
-User13,17,Small,Green,2.0,False,True,0,1,0,1
-User13,13,Small,Red,1.8,False,True,0,1,0,1
-User13,15,Small,Purple ,1.6,False,True,0,1,0,1
-User13,7,Small,Teal,1.4,True,False,0,0,0,1
-User13,4,Small,Yellow,1.2,True,False,0,1,0,1
-User13,1,Small,Pink,0.8,True,False,0,1,0,1
-User13,8,Small,Orange,0.6,True,False,0,1,0,1
-User13,5,Small,DarkBlue,0.4,False,False,1,0,0,1
-User13,14,Small,White,0.2,False,False,1,0,0,1
-User13,12,Large,Green,0.4,True,False,0,1,0,1
-User13,3,Large,Red,0.6,True,False,0,1,0,1
-User13,16,Large,Purple ,0.8,False,False,1,0,0,1
-User13,6,Large,Teal,1.2,False,False,1,0,0,1
-User13,11,Large,Yellow,1.4,False,True,0,1,0,1
-User13,2,Large,Pink,1.6,False,True,0,1,0,1
-User13,18,Large,Orange,1.8,False,True,0,1,0,1
-User13,9,Large,DarkBlue,2.0,False,True,0,1,0,1
-User13,10,Large,White,0.2,True,False,0,1,0,1
-User14,6,Small,Green,2.0,False,False,1,0,1,0
-User14,18,Small,Red,1.8,False,True,0,1,0,0
-User14,17,Small,Purple ,1.6,False,True,0,1,0,0
-User14,5,Small,Teal,1.4,False,True,0,1,0,0
-User14,8,Small,Yellow,1.2,True,False,0,1,0,0
-User14,7,Small,Pink,0.8,False,False,1,0,0,0
-User14,1,Small,Orange,0.6,True,False,0,1,0,0
-User14,11,Small,DarkBlue,0.4,True,False,0,1,0,0
-User14,3,Small,White,0.2,True,False,0,1,0,0
-User14,10,Large,Green,0.4,True,False,0,1,0,0
-User14,9,Large,Red,0.6,True,False,0,1,0,0
-User14,13,Large,Purple ,0.8,True,False,0,1,0,0
-User14,16,Large,Teal,1.2,False,True,0,0,0,0
-User14,14,Large,Yellow,1.4,False,True,0,1,0,0
-User14,4,Large,Pink,1.6,False,False,1,0,0,0
-User14,2,Large,Orange,1.8,True,False,0,0,0,0
-User14,12,Large,DarkBlue,2.0,False,False,1,0,0,0
-User14,15,Large,White,0.2,True,False,0,1,0,0
-User15,1,Small,Green,2.0,False,True,0,1,0,0
-User15,9,Small,Red,1.8,False,False,1,0,0,0
-User15,11,Small,Purple ,1.6,False,False,1,0,0,0
-User15,16,Small,Teal,1.4,False,False,1,0,0,0
-User15,2,Small,Yellow,1.2,False,True,0,0,0,0
-User15,6,Small,Pink,0.8,False,True,0,0,0,0
-User15,5,Small,Orange,0.6,True,False,0,1,0,0
-User15,8,Small,DarkBlue,0.4,False,False,1,0,0,0
-User15,12,Small,White,0.2,False,False,1,0,0,0
-User15,7,Large,Green,0.4,True,False,0,1,0,0
-User15,18,Large,Red,0.6,True,False,0,1,0,0
-User15,10,Large,Purple ,0.8,True,False,0,1,0,0
-User15,3,Large,Teal,1.2,False,False,1,0,0,0
-User15,14,Large,Yellow,1.4,True,False,0,0,0,0
-User15,4,Large,Pink,1.6,True,False,0,0,0,0
-User15,17,Large,Orange,1.8,False,True,0,1,1,0
-User15,13,Large,DarkBlue,2.0,False,True,0,1,0,0
-User15,15,Large,White,0.2,True,False,0,1,0,0

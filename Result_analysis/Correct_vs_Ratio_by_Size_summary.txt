@@ -1,3 +1,0 @@
-Plot: %Correct_cd=1 vs. Ratio by Size (curved best fit)
-Size=Large, Poly coeffs=[ 0.24783973 -0.57466264  0.88085937], Stationary point for Large at x=1.159, y=0.548
-Size=Small, Poly coeffs=[ 0.24636009 -0.60182884  0.83007812], Stationary point for Small at x=1.221, y=0.463
